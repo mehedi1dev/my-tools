@@ -1,9 +1,7 @@
-import React from "react";
+import { useState, useEffect  } from "react";
 import './css/Timer.css'
 import { Link } from "react-router-dom";
 import {BiArrowBack, BiUpArrow, BiDownArrow} from "react-icons/bi";
-import { useState } from "react";
-import { useEffect } from "react";
 
 export const Timer = () => {
 

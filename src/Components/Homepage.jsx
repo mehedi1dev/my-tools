@@ -1,6 +1,7 @@
 import React from "react";
 import './css/Homepage.css';
-import { BiTimer } from "react-icons/bi";
+import { BiTimer, BiStopwatch } from "react-icons/bi";
+import { GiSandsOfTime } from "react-icons/gi";
 import { Link } from "react-router-dom";
 
 export const Homepage = () => {
@@ -9,16 +10,16 @@ export const Homepage = () => {
             <h1>My Tools</h1>
             <div className="cards">
                 <Link className="card" to='/my-tools/timer'>
-                    <span className="icon"><BiTimer/></span>
+                    <span className="icon"><GiSandsOfTime/></span>
                     <p>Timer</p>
                 </Link>
-                <Link className="card" to='/my-tools'>
-                    <span className="icon"><BiTimer/></span>
-                    <p>Unknown</p>
+                <Link className="card" to='/my-tools/stopwatch'>
+                    <span className="icon"><BiStopwatch/></span>
+                    <p>Stopwatch</p>
                 </Link>
                 <Link className="card" to='/my-tools'>
                     <span className="icon"><BiTimer/></span>
-                    <p>Unknown</p>
+                    <p>More Coming</p>
                 </Link>
                 
                
