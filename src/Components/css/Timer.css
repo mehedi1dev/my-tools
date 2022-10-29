@@ -79,3 +79,24 @@
     background-color: #000;
     color: #fff;
 }
+@media screen and (max-width:600px){
+    .timerCount button{
+        width: 30px;
+        height: 30px;
+        font-size: 30px;
+    }
+    .timerCount p{
+        font-size: 30px;
+    }
+    .timerCount h1{
+        font-size: 16px;
+    }
+    .buttonSection{
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 16px;
+    }
+    .button{
+        width: 100%;
+    }
+}
