@@ -15,7 +15,7 @@ export const Stopwatch = () => {
             <Link to='/my-tools' className="goBack"><BiArrowBack/></Link>
             <div className="stopWatchLayout">
                 <h1>StopWatch</h1>
-                <p>Under Construction</p>
+                <p>Under Construction !</p>
             </div>
         </div>
     )
