@@ -9,13 +9,13 @@ export const Homepage = () => {
         <div className="cardContainer">
             <h1>My Tools</h1>
             <div className="cards">
-                <Link className="card" to='/my-tools/timer'>
-                    <span className="icon"><GiSandsOfTime/></span>
-                    <p>Timer</p>
-                </Link>
                 <Link className="card" to='/my-tools/stopwatch'>
                     <span className="icon"><BiStopwatch/></span>
                     <p>Stopwatch</p>
+                </Link>
+                <Link className="card" to='/my-tools/timer'>
+                    <span className="icon"><GiSandsOfTime/></span>
+                    <p>Timer</p>
                 </Link>
                 <Link className="card" to='/my-tools'>
                     <span className="icon"><BiTimer/></span>

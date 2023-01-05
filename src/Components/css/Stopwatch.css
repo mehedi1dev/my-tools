@@ -4,3 +4,32 @@
     justify-content: center;
     align-items: center;
 }
+.stopWatchLayoutTimer{
+    padding: 10px;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.stopWatchLayoutTimer>p{
+    font-size: 40px;
+}
+.stopWatchButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+.stopWatchButtons>button{
+    width: 100%;
+    height: 50px;
+    font-size: 22px;
+    color: "#000";
+    border: 0px;
+    border-radius: 15px;
+    cursor:pointer;
+}
